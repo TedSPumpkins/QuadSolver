@@ -9,7 +9,7 @@ public class QuadraticSolver{
         double b = input.nextDouble();
         System.out.println("Enter in a number for C: ");
         double c = input.nextDouble();
-
+        System.out.println("The quadratic formula is x = -b +- sqrt(b^2 - 4ac)/2a");
         double discrim = Math.sqrt(Math.pow(b,2) - (4*a*c));
         double answer1 = ((-1) * b + discrim)/ (2 *a);
         double answer2 = ((-1) * b - discrim)/(2*a);
