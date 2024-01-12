@@ -2,7 +2,7 @@ import java.util.*;
 public class QuadraticSolver{
     public static void main(String[] args){
         Scanner input = new Scanner(System.in);
-        System.out.println("Welcome to the Quadratic solver!");
+        System.out.println("Welcome to the quad zone!");
         System.out.println("Enter in a number for A: ");
         double a = input.nextDouble();
         System.out.println("Enter in a number for B: ");
